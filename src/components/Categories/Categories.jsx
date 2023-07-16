@@ -1,5 +1,6 @@
 import styles from "./Categories.modules.css";
 const Categories = () => {
+  console.log(styles);
   return (
     <div className="categories_nav">
       <ul>

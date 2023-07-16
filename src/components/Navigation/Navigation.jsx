@@ -10,7 +10,12 @@ const Navigation = () => {
           alt="flipkart_logo"
           className="flipkart_logo"
         />
-        <p className="under_logo">Explore Flipkart</p>
+        <a href="#" className="under_logo">
+          <p>
+            Explore <span className="left_under_logo">Flipkart</span>
+            <img src="/images/plus.png" className="plus_logo" alt="" />
+          </p>
+        </a>
       </div>
       <div className="search_bar">
         <form className="search_component">
