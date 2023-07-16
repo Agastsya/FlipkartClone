@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+
+  margin: 0;
+  padding: 0;
+  padding-top: 0;
+}
+.container {
+  background-color: white;
+  border-color: white;
+  color: #2874f0;
+  background-color: #fff;
+  cursor: pointer;
+  border-style: none;
+}
+.navb {
+  display: flex;
+  padding-left: 196px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2874f0;
+}
+nav ul {
+  color: white;
+  display: flex;
+  gap: 41px;
+  list-style-type: none;
+  padding-right: 196px;
+}
+.navb .flipkart_logo {
+  height: 30%;
+  width: 30%;
+}
+
+.button_search {
+  padding: 5px 40px;
+  margin-left: 47px;
+  border-radius: 1px;
+  width: 121px;
+  height: 34px;
+  font-weight: 600;
+}
+.mag_search {
+  position: relative;
+  top: 15px;
+  right: 3px;
+  padding: 11px 11px;
+  border-radius: 2px;
+}
+.input_search {
+  height: 28px;
+  width: 384px;
+  padding: 5px 5px;
+  outline: none;
+  border-radius: 2px;
+}
+.search_bar {
+  display: flex;
+  position: relative;
+  bottom: 5px;
+}
